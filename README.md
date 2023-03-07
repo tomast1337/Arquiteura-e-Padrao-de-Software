@@ -1,0 +1,1 @@
+# Arquiteura-e-Padrao-de-Software
