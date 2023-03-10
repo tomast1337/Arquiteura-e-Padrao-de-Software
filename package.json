@@ -1,0 +1,18 @@
+{
+  "name": "Arquiteura-e-Padrao-de-Software",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tomast1337/Arquiteura-e-Padrao-de-Software",
+  "author": "tomast1337 <vycasnicolas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "clean": "rm -rf dist",
+    "start": "npm run clean && tsc && node dist/index.js",
+    "singleton": "npm run clean && tsc && node dist/singleton-pattern/index.js",
+    "command": "npm run clean && tsc && node dist/command-pattern/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  }
+}
