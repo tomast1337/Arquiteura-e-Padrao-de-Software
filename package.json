@@ -1,19 +1,22 @@
 {
-  "name": "arquiteura-e-padrao-de-software",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/tomast1337/Arquiteura-e-Padrao-de-Software",
-  "author": "tomast1337 <vycasnicolas@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-      "clean": "rm -rf dist",
-    "start": "npm run clean && tsc && node dist/index.js",
-    "singleton": "npm run clean && tsc && node dist/singleton-pattern/index.js",
-    "command": "npm run clean && tsc && node dist/command-pattern/index.js",
-    "facade": "npm run clean && tsc && node dist/facade-pattern/index.js"
-  },
-  "devDependencies": {
-    "@types/node": "^18.14.6",
-    "typescript": "^4.9.5"
-  }
+    "name": "arquiteura-e-padrao-de-software",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/tomast1337/Arquiteura-e-Padrao-de-Software",
+    "author": "tomast1337 <vycasnicolas@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf dist",
+        "start": "npm run clean && tsc && node dist/index.js",
+        "singleton": "npm run clean && tsc && node dist/singleton-pattern/index.js",
+        "command": "npm run clean && tsc && node dist/command-pattern/index.js",
+        "facade": "npm run clean && tsc && node dist/facade-pattern/index.js",
+        "dao": "npm run clean && tsc && node dist/dao-pattern/index.js",
+        "factory-method": "npm run clean && tsc && node dist/factory-method-pattern/index.js",
+        "abstract-factory": "npm run clean && tsc && node dist/abstract-factory-pattern/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^18.14.6",
+        "typescript": "^4.9.5"
+    }
 }
