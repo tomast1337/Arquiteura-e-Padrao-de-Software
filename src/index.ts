@@ -16,6 +16,12 @@ const scripts = {
   "state-pattern": "npm run clean && tsc && node dist/state-pattern/index.js",
   "strategy-pattern":
     "npm run clean && tsc && node dist/strategy-pattern/index.js",
+  "bridge-pattern": "npm run clean && tsc && node dist/bridge-pattern/index.js",
+  "builder-pattern":
+    "npm run clean && tsc && node dist/builder-pattern/index.js",
+  "chain-of-responsibility-pattern":
+    "npm run clean && tsc && node dist/chain-of-responsibility-pattern/index.js",
+  "proxy-pattern": "npm run clean && tsc && node dist/proxy-pattern/index.js",
 };
 
 // print the available scripts
