@@ -21,7 +21,11 @@
         "bridge-pattern": "npm run clean && tsc && node dist/bridge-pattern/index.js",
         "builder-pattern": "npm run clean && tsc && node dist/builder-pattern/index.js",
         "chain-of-responsibility-pattern": "npm run clean && tsc && node dist/chain-of-responsibility-pattern/index.js",
-        "proxy-pattern": "npm run clean && tsc && node dist/proxy-pattern/index.js"
+        "proxy-pattern": "npm run clean && tsc && node dist/proxy-pattern/index.js",
+        "memento-pattern": "npm run clean && tsc && node dist/memento-pattern/index.js",
+        "visitor-pattern": "npm run clean && tsc && node dist/visitor-pattern/index.js",
+        "flyweight-pattern": "npm run clean && tsc && node dist/flyweight-pattern/index.js",
+        "interpreter-pattern": "npm run clean && tsc && node dist/interpreter-pattern/index.js"
     },
     "devDependencies": {
         "@types/node": "^18.14.6",
