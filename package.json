@@ -28,7 +28,10 @@
         "interpreter": "npm run clean && tsc && node dist/interpreter-pattern/index.js",
         "iterator": "npm run clean && tsc && node dist/iterator-pattern/index.js",
         "mediator": "npm run clean && tsc && node dist/mediator-pattern/index.js",
-        "template-method": "npm run clean && tsc && node dist/template-method-pattern/index.js"
+        "template-method": "npm run clean && tsc && node dist/template-method-pattern/index.js",
+        "composite": "npm run clean && tsc && node dist/composite-pattern/index.js",
+        "adapter": "npm run clean && tsc && node dist/adapter-pattern/index.js",
+        "prototype": "npm run clean && tsc && node dist/prototype-pattern/index.js"
     },
     "devDependencies": {
         "@types/node": "^18.14.6",
